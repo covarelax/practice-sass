@@ -1,0 +1,13 @@
+{
+  "name": "practice-sass",
+  "version": "1.0.0",
+  "description": "sassを試すパッケージ",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "node-sass": "^4.5.3"
+  },
+  "scripts": {
+    "watch": "browser-sync start --server --files *",
+    "sass": "node-sass --include-path scss scss/main.scss css/main.css"
+  }
+}
